@@ -1,5 +1,5 @@
 # Modelling of Naturally Fractured Reservoir
-Here we will explain the modeling of naturally fractured reservoirs in simple words.
+Here we will explain the modeling of naturally fractured reservoirs in simple words. What is unique about this blog is that it will briefly and to-the-point explain each model, then mention it is areas of applications and the most important is to clearly mention the limitations of each model.
 
 ### NFRs models
 The models of naturally fractured reservoirs in the literature can be categorized into the following three main categories:
@@ -24,11 +24,15 @@ The models of naturally fractured reservoirs in the literature can be categorize
     
     3.2. Embedded discrete fracture network models (EDFM)
 
+-----------------------------------------------------------------------------------
+
 ##### The following table from (Poli et al. 2024)
 
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/98b6cdb9-c502-46f6-ac5b-2b8e8236716a">
 
 ##### To read more about the categories, I recommend to read the first chapter in (Yao et al. 2017)
+
+-----------------------------------------------------------------------------------
 
 
 Lets talk about each model:
