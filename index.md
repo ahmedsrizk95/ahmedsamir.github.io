@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This blog is dedicated to explain certain interesting yet difficult to understand concepts in reservoir engineering.
+It is also designed to add notes about advanced technologies in numerical modeling.
