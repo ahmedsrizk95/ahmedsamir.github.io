@@ -1,12 +1,19 @@
+## Modelling of Naturally Fractured Reservoir
 Here we will explain the modeling of naturally fractured reservoirs in simple words.
 
-NFRs models:
+### NFRs models:
+
 1- Continuum models (Dual porosity single permeability and dual porosity dual permeability)
+
 2- Discrete fracture network models (DFNs)
+
 3- Embedded discrete fracture network models (EDFM)
 
-Will start by mentioning the references of each category:
+
+### Will start by mentioning the references of each category:
+
 1- Dual porosity models:
+
 Ramirez, B., Kazemi, H., Al-Kobaisi, M., Ozkan, E. and Atan, S., 2009. A critical review for proper use of water/oil/gas transfer functions in dual-porosity naturally fractured reservoirs: Part I. SPE Reservoir Evaluation & Engineering, 12(02), pp.200-210.
 Vancouver	
 
