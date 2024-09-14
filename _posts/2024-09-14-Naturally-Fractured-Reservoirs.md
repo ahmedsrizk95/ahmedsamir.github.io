@@ -1,7 +1,8 @@
-## Modelling of Naturally Fractured Reservoir
+# Modelling of Naturally Fractured Reservoir
 Here we will explain the modeling of naturally fractured reservoirs in simple words.
 
-### NFRs models:
+### NFRs models
+The models of naturally fractured reservoirs in the literature can be categorized into the following three main categories:
 
 #### 1- Continuum models
 
@@ -13,9 +14,11 @@ Here we will explain the modeling of naturally fractured reservoirs in simple wo
 
     1.4. Multi porosity/multi permeability models
 
-#### 2- Equivalent medium model
+    1.5. Multiple interaction continua (MINC)
 
-#### 3- Discrete medium model:
+#### 2- Equivalent medium models
+
+#### 3- Discrete medium models
   
     3.1. Discrete fracture network models (DFNs)
     
@@ -25,11 +28,16 @@ Here we will explain the modeling of naturally fractured reservoirs in simple wo
 
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/98b6cdb9-c502-46f6-ac5b-2b8e8236716a">
 
+##### To read more about the categories, I recommend to read the first chapter in (Yao et al. 2017)
+
+
+Lets talk about each model:
+
 
 
 ### References for each category:
-
-1- Dual porosity models:
+I have sorted the references in the way I see one should read to build his knowledge in the subject.
+#### 1- Dual porosity models:
 
 Ramirez, B., Kazemi, H., Al-Kobaisi, M., Ozkan, E. and Atan, S., 2009. A critical review for proper use of water/oil/gas transfer functions in dual-porosity naturally fractured reservoirs: Part I. SPE Reservoir Evaluation & Engineering, 12(02), pp.200-210.
 Vancouver	
@@ -44,7 +52,7 @@ Alruwayi, S., 2021. Numerical Model Sensitivity to Matrix Grid Refinement in Dua
 
 
 
-2- EDFM
+#### 2- EDFM
 Sepehrnoori, K., Xu, Y. and Yu, W., 2020. Embedded discrete fracture modeling and application in reservoir simulation. Elsevier.
 
 Xu, Y., 2015. Implementation and application of the embedded discrete fracture model (EDFM) for reservoir simulation in fractured reservoirs (Doctoral dissertation).
@@ -55,7 +63,7 @@ Shakiba, M., 2014. Modeling and simulation of fluid flow in naturally and hydrau
 
 Poli, R.E.B., Barbosa Machado, M.V. and Sepehrnoori, K., 2024. Advancements and perspectives in embedded discrete fracture models (EDFM). Energies, 17(14), p.3550.
 
-3- Triple porosity systems
+#### 3- Triple porosity
 Yao, J. and Huang, Z.Q., 2017. Fractured vuggy carbonate reservoir simulation. Berlin/Heidelberg, Germany: Springer.
 Vancouver	
 
