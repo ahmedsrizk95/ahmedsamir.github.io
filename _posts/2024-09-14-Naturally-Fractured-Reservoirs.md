@@ -3,27 +3,31 @@ Here we will explain the modeling of naturally fractured reservoirs in simple wo
 
 ### NFRs models:
 
-1- Continuum models
+#### 1- Continuum models
 
-    1.1. Dual porosity single permeability 
+    1.1. Dual porosity single permeability (DPSK)
     
-    1.2. dual porosity dual permeability
+    1.2. dual porosity dual permeability (DPDP)
 
-2- Equivalent medium model
+    1.3. Triple porosity models
 
-3- Discrete medium model:
+    1.4. Multi porosity/multi permeability models
+
+#### 2- Equivalent medium model
+
+#### 3- Discrete medium model:
   
     3.1. Discrete fracture network models (DFNs)
     
     3.2. Embedded discrete fracture network models (EDFM)
 
-The following table from (Poli et al. 2024)
+##### The following table from (Poli et al. 2024)
 
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/98b6cdb9-c502-46f6-ac5b-2b8e8236716a">
 
 
 
-### Will start by mentioning the references of each category:
+### References for each category:
 
 1- Dual porosity models:
 
