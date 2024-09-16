@@ -1,4 +1,4 @@
-# Modelling of Naturally Fractured Reservoir
+# Modelling of Naturally Fractured Reservoirs
 Here we will explain the modeling of naturally fractured reservoirs in simple words. What is unique about this blog is that it will briefly and to-the-point explain each model, then mention it is areas of applications and the most important is to clearly mention the limitations of each model.
 
 ### NFRs models
