@@ -65,7 +65,7 @@ The model homogenizes every thing; The fracture network is assumed to behave uni
 
 #### Flow equations:
 
-<img width="383" alt="Screenshot 2024-09-17 at 12 09 43 AM" src="https://github.com/user-attachments/assets/8f35ef64-a858-4349-b4b2-0bf75ecbc8f1">
+<img width="666" alt="Screenshot 2024-09-17 at 12 09 43 AM" src="https://github.com/user-attachments/assets/8f35ef64-a858-4349-b4b2-0bf75ecbc8f1">
 
 
 #### Transfer function:
