@@ -1,10 +1,10 @@
-# Modelling of Naturally Fractured Reservoir
+![image](https://github.com/user-attachments/assets/3ca99e0c-7b95-4469-bd36-8caabc9ff2ed)# Modelling of Naturally Fractured Reservoir
 Here we will explain the modeling of naturally fractured reservoirs in simple words. What is unique about this blog is that it will briefly and to-the-point explain each model, then mention it is areas of applications and the most important is to clearly mention the limitations of each model.
 
 ### NFRs models
 The models of naturally fractured reservoirs in the literature can be categorized into the following three main categories:
 
-#### 1- Continuum models
+#### 1- Dual-Continuum models
 
     1.1. Dual porosity single permeability (DPSK)
     
@@ -35,12 +35,52 @@ The models of naturally fractured reservoirs in the literature can be categorize
 -----------------------------------------------------------------------------------
 
 
-Lets talk about each model:
+Lets talk about each model
+### 1- Dual Porosity Model:
+
+#### The history:
+Warren and Root (1963): 
+Kazemi (1969): 
+
+
+#### The main assumptions of this model are:
+
+The reservoir consists of two distinct media: a matrix (low-permeability, high-porosity) and fractures (high-permeability, low-porosity). The matrix provides storage, while fractures provide flow pathways. Usually these models are viewed as the figure below: sugar cubes represent the matrix and spaces between them represent the fracture.
+
+<img width="609" alt="Screenshot 2024-09-16 at 9 55 52 PM" src="https://github.com/user-attachments/assets/f609e5c5-d330-495e-9aed-09a58bcb3b58">
+
+Fluid flow occurs mainly in the fracture system. The matrix primarily stores fluid, while the fractures conduct the flow. However, for certain condition (to be discussed later) flow is transferred from the matrix to the fracture.
+
+The model homogenizes every thing; The fracture network is assumed to behave uniformly at the macroscopic level, with the matrix blocks assumed to be uniformly distributed. Dual porosity models are more of a homogenisation of how fractures affect flow. Generally, we are not so certain were the fractures are exactly and so on so in general it works well and its been the standard for so long.
+
+### Flow equation:
+
+<img width="668" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
+
+### Transfer function:
+
+### Shape factor:
+
+#### The main limitations of these models are:
+
+Simplified Geometry: Fractures are often idealized as planar, orthogonal, or evenly distributed, which is rarely the case in real geological formations. This can lead to inaccuracies in predicting reservoir behavior.
+
+Lets say we are so so certain about the position and orientation of a fracture then yes dual porosity might not be able to track local changes because it homogenises everything
+
+dual porosity is generally used with naturally fractured reservoirs were its highly possible we have so many small fractures all over the reservoir.
+
+The pseudo-steady state assumption: This assumption may underestimate the early time recovery and mismatch the final recovery for some special systems such as gravity drainage systems (XU, 2015 after Abushaikha and Gosselin 2008)
+
+In most dual porosity models, “lumped parameters” are given to matrix and fracture blocks by taking averages of the properties over the block volume. (XU, 2015)
+
+
+
 
 
 
 ### References for each category:
 I have sorted the references in the way I see one should read to build his knowledge in the subject.
+
 #### 1- Dual porosity models:
 
 Ramirez, B., Kazemi, H., Al-Kobaisi, M., Ozkan, E. and Atan, S., 2009. A critical review for proper use of water/oil/gas transfer functions in dual-porosity naturally fractured reservoirs: Part I. SPE Reservoir Evaluation & Engineering, 12(02), pp.200-210.
