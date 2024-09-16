@@ -76,6 +76,16 @@ The model homogenizes every thing; The fracture network is assumed to behave uni
 
 Transfer function should account for imbibition, gravity drainage, fluid expansion, and molecular diffusion (this is to be accounted for in compositional simulations).
 
+The driving force for matrix depletion is the pressure differential between the fracture and matrix only.
+If the matrix block is thick, then gravity difference between water and oil can lead to oil production by gravity drainage, if the gravity can overcome the capillary pressure of the rock.
+If the matrix is water-wet, the water imbibes into the matrix to release oil. Thus, the rock wettability and block size play major roles in fluid exchange between the fracture and matrix.
+
+The transfer-function approach provides a practical solution because the data requirement is substantially lower and the speed of computation is much faster.
+
+the transfer functions are zero-dimensional mathematical expressions that are designed to account for the transfer of fluids and components between a 3D matrix block and its surrounding fractures. The zero-dimensionality works well for single-phase flow, but it does not work well for immiscible flow and miscible flow with contrasting densities between the fractures and matrix.
+
+In gravity/capillary-dominated flow, Ramirez et al. (2009) provided the transfer functions with a pseudodimensionality in the vertical direction. This approach is closely related to the classical 1D gravity-drainage formulation (Hagoort 1980, Al-Kandari et al. 2002).
+
 Transfer function that accounts for pressure difference:
 
 <img width="208" alt="Screenshot 2024-09-16 at 11 12 03 PM" src="https://github.com/user-attachments/assets/e574110a-b784-4815-b268-f9ae8f019d21">
@@ -83,8 +93,6 @@ Transfer function that accounts for pressure difference:
 Transfer function that accounts for gravity forces:
 
 <img width="318" alt="Screenshot 2024-09-16 at 11 13 51 PM" src="https://github.com/user-attachments/assets/14053319-6b9d-4dbb-a10b-dda163ec1725">
-
-
 
 
 #### Shape factor:
