@@ -24,6 +24,8 @@ The models of naturally fractured reservoirs in the literature can be categorize
     
     3.2. Embedded discrete fracture network models (EDFM)
 
+    3.3. Discrete facture-vug network (DFVN)
+
 -----------------------------------------------------------------------------------
 
 ##### The following table from (Poli et al. 2024)
@@ -56,9 +58,21 @@ The model homogenizes every thing; The fracture network is assumed to behave uni
 
 #### Flow equation:
 
-<img width="668" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
+<img width="300" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
 
 #### Transfer function:
+
+Transfer function should account for imbibition, gravity drainage, fluid expansion, and molecular diffusion (this is to be accounted for in compositional simulations).
+
+Transfer function that accounts for pressure difference:
+
+<img width="208" alt="Screenshot 2024-09-16 at 11 12 03 PM" src="https://github.com/user-attachments/assets/e574110a-b784-4815-b268-f9ae8f019d21">
+
+Transfer function that accounts for gravity forces:
+
+<img width="318" alt="Screenshot 2024-09-16 at 11 13 51 PM" src="https://github.com/user-attachments/assets/14053319-6b9d-4dbb-a10b-dda163ec1725">
+
+
 
 #### Shape factor:
 
