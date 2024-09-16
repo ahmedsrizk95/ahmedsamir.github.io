@@ -4,19 +4,20 @@ Here we will explain the modeling of naturally fractured reservoirs in simple wo
 ### NFRs models
 The models of naturally fractured reservoirs in the literature can be categorized into the following three main categories:
 
-#### 1- Dual-Continuum models
+#### 1- Equivalent medium models (Single medium models)
 
-    1.1. Dual porosity single permeability (DPSK)
+#### 2- Dual-Continuum models
+
+    2.1. Dual porosity single permeability (DPSK)
     
-    1.2. dual porosity dual permeability (DPDP)
+    2.2. dual porosity dual permeability (DPDP)
 
-    1.3. Triple porosity models
+    2.3. Triple porosity models
 
-    1.4. Multi porosity/multi permeability models
+    2.4. Multi porosity/multi permeability models
 
-    1.5. Multiple interaction continua (MINC)
+    2.5. Multiple interaction continua (MINC)
 
-#### 2- Equivalent medium models
 
 #### 3- Discrete medium models
   
@@ -43,7 +44,7 @@ Lets talk about each model
 #### The history:
 Barenblatt et al. (1960) first proposed the model.
 Warren and Root (1963) applied the dual porosity model to well test analysis of naturally fractured reservoirs.
-Kazemi (1969) extended the model to water/oil flow and developed a numerical algorithm to solve the fracture-flow equations while accounting for matrix/fracture fluid transfer by use of a multiphase transfer function.
+Kazemi (1969) extended the model to water/oil flow and developed a numerical algorithm to solve the fracture-flow equations while accounting for matrix/fracture fluid transfer by use of a multiphase transfer function. All subsequent developments in dual-continuum models have been geared towards refining and improving the accuracy of the mathematical transfer functions (Al-Kobaisi, 2010).
 
 
 #### The main assumptions of this model are:
@@ -58,7 +59,7 @@ The model homogenizes every thing; The fracture network is assumed to behave uni
 
 #### Flow equation:
 
-<img width="300" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
+<img width="600" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
 
 #### Transfer function:
 
@@ -71,6 +72,7 @@ Transfer function that accounts for pressure difference:
 Transfer function that accounts for gravity forces:
 
 <img width="318" alt="Screenshot 2024-09-16 at 11 13 51 PM" src="https://github.com/user-attachments/assets/14053319-6b9d-4dbb-a10b-dda163ec1725">
+
 
 
 
