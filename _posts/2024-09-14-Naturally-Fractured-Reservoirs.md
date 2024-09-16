@@ -54,7 +54,6 @@ Fluid flow occurs mainly in the fracture system. The matrix primarily stores flu
 The model homogenizes every thing; The fracture network is assumed to behave uniformly at the macroscopic level, with the matrix blocks assumed to be uniformly distributed. Dual porosity models are more of a homogenisation of how fractures affect flow. Generally, we are not so certain were the fractures are exactly and so on so in general it works well and its been the standard for so long.
 
 #### Flow equation:
-![image](https://github.com/user-attachments/assets/3ca99e0c-7b95-4469-bd36-8caabc9ff2ed)
 
 <img width="668" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
 
