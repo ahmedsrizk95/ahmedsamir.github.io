@@ -111,9 +111,11 @@ The model neglects Complex Fracture Networks; Complex fracture networks with var
 ![image](https://github.com/user-attachments/assets/7d385ba2-1993-4e72-8f4a-d376f201cf9b)
 
 
-**The pseudo-steady state assumption: ** This assumption may underestimate the early time recovery and mismatch the final recovery for some special systems such as gravity drainage systems (XU, 2015 after Abushaikha and Gosselin 2008)
+The pseudo-steady state assumption: This assumption may underestimate the early time recovery and mismatch the final recovery for some special systems such as gravity drainage systems (XU, 2015 after Abushaikha and Gosselin 2008)
 
 In most dual porosity models, “lumped parameters” are given to matrix and fracture blocks by taking averages of the properties over the block volume. (XU, 2015)
+
+### Discrete fracture network models (DFNs)
 
 
 ### References for each category:
