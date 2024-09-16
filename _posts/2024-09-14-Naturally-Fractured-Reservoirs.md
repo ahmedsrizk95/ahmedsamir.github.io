@@ -41,7 +41,7 @@ Lets talk about each model
 #### The history:
 Barenblatt et al. (1960) first proposed the model.
 Warren and Root (1963) applied the dual porosity model to well test analysis of naturally fractured reservoirs.
-Kazemi (1969) developed the dual porosity model for radial systems and derived an expression for shape factor in finite difference simulations. 
+Kazemi (1969) extended the model to water/oil flow and developed a numerical algorithm to solve the fracture-flow equations while accounting for matrix/fracture fluid transfer by use of a multiphase transfer function.
 
 
 #### The main assumptions of this model are:
