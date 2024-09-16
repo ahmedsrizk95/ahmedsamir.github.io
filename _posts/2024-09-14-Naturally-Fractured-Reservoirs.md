@@ -61,7 +61,11 @@ The reservoir consists of two distinct media: a matrix (low-permeability, high-p
 
 Fluid flow occurs mainly in the fracture system. The matrix primarily stores fluid, while the fractures conduct the flow. However, flow is transferred from the matrix to the fracture (to be discussed later) . No flow occurs between the matrix blocks (this limitation will be overcome by the dual porosity dual permeability models).
 
+In the dual-porosity concept, the bulk of the fluid transport takes place at high velocities in the fractures from one grid cell to another irrespective of flowing phase. On the other hand, in two- or three-phase flow, there is usually a local exchange of fluids between the fractures and the adjacent matrix at comparatively low velocities. The issue of fluid velocities is very critical in naturally fractured reservoirs because, in multiphase flow, typically water or gas can move rapidly in the fractures and surround the matrix blocks partially or totally. Once a matrix block is surrounded partially or totally by a particular fluid, transfer of fluid phases and components takes place between the fracture and matrix (Ramierz et al. 2009)
+
 The model homogenizes every thing; The fracture network is assumed to behave uniformly at the macroscopic level, with the matrix blocks assumed to be uniformly distributed. Dual porosity models are more of a homogenisation of how fractures affect flow. Generally, if we are not so certain where the fractures exactly are, so in general it works well and it has been the industry standard for so long.
+
+
 
 #### Flow equations:
 
@@ -106,7 +110,7 @@ Ramirez et al. (2009) proposed that the shape factor is generally phase- sensiti
 
 Simplified Geometry: Fractures are often idealized as planar, orthogonal, or evenly distributed, which is rarely the case in real geological formations. This can lead to inaccuracies in predicting reservoir behavior. Lets say we are so so certain about the position and orientation of a fracture then yes dual porosity might not be able to track local changes because it homogenises everything. Dual porosity is generally used with naturally fractured reservoirs were its highly possible we have so many small fractures all over the reservoir.
 
-The model neglects Complex Fracture Networks; Complex fracture networks with varying aperture, length, and orientation are hard to represent accurately in dual porosity models. So the general production performance could be matched but the local saturation distribution will not be captured correctly. I will show this by comparing these two models in the figure below:
+The model neglects Complex Fracture Networks; Complex fracture networks with varying aperture, length, and orientation are hard to represent accurately in dual porosity models. So a dual-porosity concept is typically used to idealize the reservoir on the global scale; the general production performance could be matched. However, the local saturation distribution will not be captured correctly. I will show this by comparing these two models in the figure below:
 
 ![image](https://github.com/user-attachments/assets/7d385ba2-1993-4e72-8f4a-d376f201cf9b)
 
