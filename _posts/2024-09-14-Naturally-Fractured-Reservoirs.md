@@ -39,7 +39,13 @@ The models of naturally fractured reservoirs in the literature can be categorize
 
 
 Lets talk about each model
-### 1- Dual Porosity Model:
+### Equivalent Medium Model:
+
+The theoretical basis of equivalent medium model is the upscale theory, and its mathematical essence is to reduce the differential orders of the flow equations on fine scale. Thus, the up-scale model is macroscopic scale, and we can smooth the effect of heterogeneity and multi-scale characteristics of fractures and vugs. (Yao et al. 2017)
+
+Different from double-and triple-porosity models, equivalent medium model regards the overall fractured reservoir as a continuous porous system. The heterogeneity is represented by the corresponding equivalent parameters. The advantages of this model are the high calculation efficiency and the simple requirement for parameters. Currently, the study on this model mainly focuses on the single phase flow in fractured porous media. Limitations of these models are pronounced in two-phase or multiple phase flow in fractured reservoirs. This is because there is no mature theory and method to calculate the corresponding equivalent parameters, such as the equivalent relative permeabilities and equivalent capillary curve (Wang et al. 2011; Zhou and Wang 2004). 
+
+### Dual Porosity Model:
 
 #### The history:
 Barenblatt et al. (1960) first proposed the model.
@@ -57,9 +63,10 @@ Fluid flow occurs mainly in the fracture system. The matrix primarily stores flu
 
 The model homogenizes every thing; The fracture network is assumed to behave uniformly at the macroscopic level, with the matrix blocks assumed to be uniformly distributed. Dual porosity models are more of a homogenisation of how fractures affect flow. Generally, if we are not so certain where the fractures exactly are, so in general it works well and it has been the industry standard for so long.
 
-#### Flow equation:
+#### Flow equations:
 
-<img width="600" alt="Screenshot 2024-09-16 at 10 09 17 PM" src="https://github.com/user-attachments/assets/575c76dc-ec02-48f9-bb3e-cfcfedd5960e">
+<img width="383" alt="Screenshot 2024-09-17 at 12 09 43 AM" src="https://github.com/user-attachments/assets/8f35ef64-a858-4349-b4b2-0bf75ecbc8f1">
+
 
 #### Transfer function:
 
@@ -77,6 +84,7 @@ Transfer function that accounts for gravity forces:
 
 
 #### Shape factor:
+
 Shape factor is a geometric factor char- acteristic of the geometry and boundary conditions of the matrix block (Ramirez et al. 2009).
 Warren and Roots (1963):
 
@@ -91,6 +99,8 @@ Kazemi et al. (1992) and Morrow et al. (1995):
 <img width="95" alt="Screenshot 2024-09-16 at 11 32 29 PM" src="https://github.com/user-attachments/assets/fb756720-39e5-4527-88f1-1bbfc64f2457">
 
 which reduces to the previous equation for sugar cube or match-stick models.
+
+Ramirez et al. (2009) proposed that the shape factor is generally phase- sensitive. For instance, for the same reservoir, in single-phase flow, the effective matrix-block dimensions are generally smaller, while for multiphase flow, the effective matrix-block dimensions are larger because a displacing fluid, such as gas, tends to finger through larger fractures to surround more of the matrix rock. Similar arguments can be applied to the effective block height because of film flow between blocks in the vertical direction and vertical reinfiltration of oil from one block to another.
 
 #### The main limitations of these models are:
 
