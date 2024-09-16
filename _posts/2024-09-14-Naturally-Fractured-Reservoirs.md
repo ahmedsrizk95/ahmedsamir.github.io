@@ -79,13 +79,17 @@ Transfer function that accounts for gravity forces:
 #### Shape factor:
 Shape factor is a geometric factor char- acteristic of the geometry and boundary conditions of the matrix block (Ramirez et al. 2009).
 Warren and Roots (1963):
-<img width="221" alt="Screenshot 2024-09-16 at 11 31 21 PM" src="https://github.com/user-attachments/assets/d6424193-8eb0-4f16-a9ab-20b02f17cfef">
+
+<img width="110" alt="Screenshot 2024-09-16 at 11 31 21 PM" src="https://github.com/user-attachments/assets/d6424193-8eb0-4f16-a9ab-20b02f17cfef">
 
 Kazemi et al. (1976):
-<img width="307" alt="Screenshot 2024-09-16 at 11 31 55 PM" src="https://github.com/user-attachments/assets/1a82cab4-4e82-4a67-b7ab-c98f70e5eafb">
+
+<img width="150" alt="Screenshot 2024-09-16 at 11 31 55 PM" src="https://github.com/user-attachments/assets/1a82cab4-4e82-4a67-b7ab-c98f70e5eafb">
 
 Kazemi et al. (1992) and Morrow et al. (1995):
-<img width="194" alt="Screenshot 2024-09-16 at 11 32 29 PM" src="https://github.com/user-attachments/assets/fb756720-39e5-4527-88f1-1bbfc64f2457">
+
+<img width="95" alt="Screenshot 2024-09-16 at 11 32 29 PM" src="https://github.com/user-attachments/assets/fb756720-39e5-4527-88f1-1bbfc64f2457">
+
 which reduces to the previous equation for sugar cube or match-stick models.
 
 #### The main limitations of these models are:
